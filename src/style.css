@@ -1,0 +1,31 @@
+.Box {
+  border: 2px solid rgb(33, 33, 37);
+  width: 80vw;
+  height: auto;
+  margin: auto;
+  padding: 1rem 0.5rem;
+  border-radius: 10px;
+  position: relative;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.form-body{
+  position: absolute;
+  top: .5rem;
+  right: .5rem;
+}
+
+.Buttons{
+  display: flex;
+  gap: .5rem;
+  margin-top: 1rem;
+  justify-content: flex-end;
+  
+}
+
+.Buttons > *{
+  text-transform: capitalize;
+  letter-spacing: 1px;
+  padding: .25rem .75rem;
+  
+}
